@@ -5,13 +5,3 @@ Sharify lance « THE CHANGEMAKERY, A FACTORY OF CHANGEMAKERS ». Il s’agit du 
 Sharify webpage : https://sharify.be/fr/home-sharify/
 
 See /doc for more info
-
-## Installation
-
-- install Node.js
-- install npm
-
-Init project:
-```bash
-npm install
-```
