@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/GordonPreumont/sharify_the_changemakery/issues"
   },
-  "homepage": "https://github.com/GordonPreumont/sharify_the_changemakery#readme"
+  "homepage": "https://github.com/GordonPreumont/sharify_the_changemakery#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }
