@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
 
-    <title>My page title</title>
+    <title>Change Makery</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
@@ -14,70 +15,67 @@
   </head>
 
   <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     <header>
-      <h1>Header</h1>
+      <h1>Change Makery</h1>
+      <h2>FACTORY OF CHANGEMAKERS</h2>
+      <p>Think beyond, Start smart, Scale fair</p>
     </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-       <!-- A Search form is another commmon non-linear way to navigate through a website. -->
-
-       <form>
-         <input type="search" name="q" placeholder="Search query">
-         <input type="submit" value="Go!">
-       </form>
-     </nav>
-
-    <!-- Here is our page's main content -->
-    <main>
-
-      <!-- It contains an article -->
-      <article>
-        <h2>Article heading</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-
-        <h3>Subsection</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-
-        <h3>Another subsection</h3>
-
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-      </article>
-
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
-
+    <section>
+      <h3>Qui sommes nous ?</h3>
+      <div data-aos="fade-right">
+        <img>
+        <p>Premier « startup factory » géré par des étudiants entrepreneurs, en stage, 
+          désireux d’apprendre l’entrepreneuriat social en étant acteur de changement.
+        </p>
+      </div>
+      <div data-aos="fade-right">
+        <p>Nous voulons répondre au besoin grandissant des jeunes générations 
+          afin de donner du sens à leur carrière à travers l’entrepreneuriat social.
+        </p>
+        <img>
+      </div>
+      <div data-aos="fade-right">
+        <img>
+        <p>Nous vous donnons les idées, les compétences et les ressources nécessaires pour vous lancer de manière responsable, 
+          coopérative et efficace.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section data-aos="fade-right">
+      <h3>Comment ?</h3>
+      <div>
+        <p>Nous mettons à votre disposition des experts du domaine pour vous accompagner à raison de 2 heures semaines tout au long de votre projet...<br>
+          ... mais vous êtes les acteurs !
+        </p>
+      </div>
+      <div>
+        <p>Vous êtes les seuls gérants et décisionnaire de votre projet.<br>
+          Choisissez la thématique d'entrepreneuriat social que vous souhaitez explorer et générez vous-mêmes les idées.<br>
+          Formez une équipe de 10 talents et répartissez les tâches pour concrétiser le projet.
+        </p>
+      </div>
+      <div>
         <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
+          <li>Mois 1 = Explore & Ideate</li>
+          <li> Mois 2 = Test & Develop</li>
+          <li>Mois 3 = Deploy & Measure</li>
+          <li>Mois 4 = Improve & Launch</li>
         </ul>
-      </aside>
-
-    </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
+        <img>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <h3>Transformez vos idées en réalité !</h3>
+      <button>Je postule !</button>
+      <button>Je veux vous aider !</button>
+    </section>
     <footer>
       <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
-
   </body>
 </html>

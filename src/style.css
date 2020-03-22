@@ -8,6 +8,7 @@ font-family: 'Raleway', sans-serif;
 html {
     box-sizing: border-box;
     height:100%;
+    font-size: 2rem; /*TO BE DELETED*/
 }
 *, *:before, *:after {
     box-sizing: inherit;
