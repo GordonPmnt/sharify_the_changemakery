@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+/***  colors:  ***/
+.pallet {
+    color: #2FA0FE;
+    color: #DEF9FF;
+    color: #24E32C;
+}
+/*****************/
+
 html {
     box-sizing: border-box;
     height:100%;
