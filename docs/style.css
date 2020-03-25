@@ -1,10 +1,3 @@
-/***  colors:  ***/
-.pallet {
-    color: #2FA0FE;
-    color: #DEF9FF;
-    color: #24E32C;
-}
-/*****************/
 
 /* GENERAl */
 
@@ -147,4 +140,15 @@ h1{
 
 footer{
     background-color: #DEF9FF;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px)
+{
+    nav {
+        display: none;
+    }
 }
