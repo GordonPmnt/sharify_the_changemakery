@@ -21,8 +21,6 @@ em{
     color: #2FA0FE;
 }
 
-
-
 .circle{
     -webkit-border-radius:150px;
     -moz-border-radius:150px;
@@ -137,15 +135,4 @@ h1{
 
 footer{
     background-color: #DEF9FF;
-}
-
-
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 600px)
-{
-    nav {
-        display: none;
-    }
 }
