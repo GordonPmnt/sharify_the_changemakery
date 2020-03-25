@@ -52,6 +52,11 @@ a{
 
 h3{
     font-family: Roboto Condensed, sans-serif;
+    float: right;
+    color: rgba(27, 101, 83, 0.8);
+    background: rgba(225, 221, 114, 0.5);
+    font-size: 3em;
+    margin-right: 20%;
 }
 
 p{
