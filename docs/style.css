@@ -57,7 +57,7 @@ h3 {
 p {
     font-family: Roboto Condensed, sans-serif;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 em {
@@ -66,16 +66,17 @@ em {
 
 .icon {
     mix-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
 }
 
 .text-block {
-    display: flex;
     flex-direction: column;
+    
 }
 
 article {
     display: flex;
-    justify-content: space-evenly;
     margin: 10% 25% 10% 25%;
 }
 
