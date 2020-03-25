@@ -55,13 +55,15 @@ h3 {
 }
 
 p {
-    font-family: Roboto Condensed, sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 em {
     color: rgba(27, 101, 83, 0.8);
+    font-style: normal;
+    font-weight: bold;
 }
 
 .icon {
