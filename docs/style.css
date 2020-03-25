@@ -77,6 +77,7 @@ p {
     font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 1.2rem;
+    margin: 10% 15% 0 15%;
 }
 
 em {
@@ -98,12 +99,14 @@ em {
 
 .text-block {
     flex-direction: column;
+    height: 40%;
+    width: auto;
     
 }
 
 article {
     display: flex;
-    margin: 10% 25% 10% 25%;
+    margin: 5% 20% 5% 20%;
 }
 
 /* MEDIA QUERIES */
