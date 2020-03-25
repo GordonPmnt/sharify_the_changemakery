@@ -108,6 +108,11 @@ em {
 
 article {
     display: flex;
+    margin: 5% 25% 5% 25%;
+}
+
+.stakeholders {
+    display: flex;
     margin: 5% 15% 5% 15%;
 }
 
