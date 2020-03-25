@@ -21,15 +21,19 @@ nav {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     padding-top: 3%;
     margin-left: 5%;
     font-family: Roboto Condensed, sans-serif;
     color: rgba(27, 101, 83, 0.8);
 }
 
+h1 span {
+    color: #E1DD72;
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2%;
     font-family: Roboto, sans-serif;
     margin-left: 5.5%;
@@ -38,6 +42,7 @@ h2 {
 }
 
 nav {
+    margin-top: -5%;
     margin-left : 5%;
 }
 
@@ -57,7 +62,8 @@ h3 {
     color: rgba(27, 101, 83, 0.8);
     background: rgba(225, 221, 114, 0.5);
     font-size: 3em;
-    margin-right: 20%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -119,6 +125,10 @@ article {
 #domino {
     padding-right: 50%;
     background-color: white;
+}
+
+#greta {
+    margin-top: 10%;
 }
 
 /* MEDIA QUERIES */
