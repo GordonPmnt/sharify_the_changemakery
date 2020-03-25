@@ -91,6 +91,11 @@ em {
     justify-content: center;
 }
 
+.icon img {
+    height: 45px;
+    width: auto;
+}
+
 .text-block {
     flex-direction: column;
     
