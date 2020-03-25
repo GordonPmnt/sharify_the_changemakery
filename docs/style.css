@@ -23,19 +23,18 @@ nav {
 }
 
 h1 {
-    font-family: 'Caveat', cursive;
     font-size: 70px;
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     font-family: Roboto Condensed, sans-serif;
+    color: rgba(27, 101, 83, 0.8);
 }
 
 h2{
+    font-size: 30px;
     margin-top: 2em;
-    font-size: 0.45em;
-    text-align: center;
     font-family: Roboto Condensed, sans-serif;
+    margin-left: 5%;
+    color: rgba(27, 101, 83, 0.8);
 }
 
 h3{
