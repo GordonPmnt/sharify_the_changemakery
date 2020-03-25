@@ -19,12 +19,31 @@ body {
 
 nav {
     display: none;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10%;
+    font-family: Roboto Condensed, sans-serif;
 }
 
 h2{
     margin-top: 2em;
     font-size: 0.45em;
     text-align: center;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+h3{
+    font-family: Roboto Condensed, sans-serif;
+}
+
+p{
+    font-family: Roboto Condensed, sans-serif;
 }
 
 em {
@@ -48,15 +67,6 @@ article {
 
 article p {
     font-size: 0.8rem;
-}
-
-
-h1 {
-    font-family: 'Caveat', cursive;
-    font-size: 70px;
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 10%;
 }
 
 /* MEDIA QUERIES */
