@@ -54,6 +54,19 @@ h3 {
     margin-right: 20%;
 }
 
+.h-right {
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 5%;
+}
+
+.h-left{
+    width: 60%;
+    margin-right: 40%;
+    padding-right: 5%;
+    text-align: right;
+}
+
 p {
     font-family: Roboto Condensed, sans-serif;
     text-align: center;
