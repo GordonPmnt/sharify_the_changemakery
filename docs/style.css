@@ -40,6 +40,16 @@ h2{
     color: rgba(27, 101, 83, 0.8);
 }
 
+nav{
+    margin-top : 10%;
+    margin-left : 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #A8C66C;
+}
+
 h3{
     font-family: Roboto Condensed, sans-serif;
 }
