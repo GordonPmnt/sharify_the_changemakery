@@ -85,11 +85,10 @@ header button {
 
 article {
     margin: 15% 0 15% 0;
+    background-color: #DEF9FF;
 }
 
 article p {
-    background-color: #DEF9FF;
-    margin-top: 300px;
     font-size: 0.8rem;
 }
 
