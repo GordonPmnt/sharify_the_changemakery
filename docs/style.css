@@ -41,7 +41,13 @@ nav {
     margin-left : 5%;
 }
 
+img {
+    width: 100%;
+}
+
 a {
+    display: flex;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #A8C66C;
 }
