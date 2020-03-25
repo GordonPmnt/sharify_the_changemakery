@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     height:100%;
+    background: linear-gradient(0deg, rgba(168, 198, 108, 0.06), rgba(168, 198, 108, 0.06)), #FFFFFF;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -10,7 +11,6 @@ html {
 
 body {
 
-    font-family: 'Noto Sans', sans-serif;
     font-size: 100%;
     min-height:100%;
     padding: 0;
@@ -50,11 +50,9 @@ em {
     color: #2FA0FE;
 }
 
-.opacity {
-    width: 100%;
-    opacity: 0.33;
-    height: 550px;
-    margin-top: 100px;
+.icon {
+    mix-blend-mode: multiply;
+    height: 0.6 em;   
 }
 
 /* CORPS DU SITE */
