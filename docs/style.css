@@ -50,10 +50,6 @@ em{
     margin-top: 100px;
 }
 
-section{
-    background-color: yellow;
-}
-
 #blue{
     background-color: #DEF9FF;
     margin-top: 100px;
@@ -66,12 +62,12 @@ section{
 
 /* HEADER */
 
-header{
-    height: 580px;
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
     background-image: url("../img/changemaker-head.png");
-    background-position: 50% 0%;
     background-repeat: no-repeat;
-    
 }
 
 header button{
@@ -94,7 +90,7 @@ article{
     margin-top: 100px;
 }
 
-#butterfly{
+#scale-fair{
     width: 90%;
     margin-left: 5%;
     margin-top: 84px;
@@ -147,4 +143,15 @@ h1{
 
 footer{
     background-color: #DEF9FF;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px)
+{
+    nav {
+        display: flex;
+    }
 }
