@@ -29,11 +29,11 @@ h2{
     text-align: center;
 }
 
-em{
+em {
     color: #2FA0FE;
 }
 
-.circle{
+.circle {
     -webkit-border-radius:150px;
     -moz-border-radius:150px;
     border-radius:150px;
@@ -43,19 +43,19 @@ em{
     border: 3px #DEF9FF solid;
 }
 
-.opacity{
+.opacity {
     width: 100%;
     opacity: 0.33;
     height: 550px;
     margin-top: 100px;
 }
 
-#blue{
+#blue {
     background-color: #DEF9FF;
     margin-top: 100px;
 }
 
-#sponso{
+#sponso {
     background-color: #DEF9FF;
     margin-top: 100px;
 }
@@ -67,7 +67,7 @@ em{
     height: auto;
 }
 
-header button{
+header button {
   width: 300px;
   height:100px;
   background: #2FA0FE;
@@ -85,8 +85,28 @@ header button{
 
 /* CORPS DU SITE */
 
-article{
-    margin-top: 100px;
+article {
+    margin: 15% 0 15% 0;
+    background-color: #DEF9FF;
+}
+
+article p {
+    font-size: 0.8rem;
+}
+
+.p-left {
+    margin-right: 20%;
+    padding-right: 20%;
+}
+
+.p-right {
+    margin-left: 20%;
+    padding-left: 20%;
+}
+
+.p-center {
+    display: flex;
+    justify-items: center;
 }
 
 #scale-fair{
@@ -95,7 +115,7 @@ article{
     margin-top: 84px;
 }
 
-h1{
+h1 {
     font-family: 'Caveat', cursive;
     font-size: 70px;
     margin-top: 50px;
@@ -103,48 +123,11 @@ h1{
     margin-left: 10%;
 }
 
-#one{
-    background-color: #DEF9FF;
-    margin-top: 300px;
-    width: 75%;
-    display: flex;
-}
-
-#two{
-    background-color: #DEF9FF;
-    display: flex;
-
-}
-
-#tree{
-    background-color: #DEF9FF;
-    width: 75%;
-    display: flex;
-}
-
-#four{
-    background-color: #DEF9FF;
-    display: flex;
-}
-
-#five{
-    background-color: #DEF9FF;
-    width: 75%;
-    display: flex;
-}
-
-#six{
-    background-color: #DEF9FF;
-}
-
-
 /* FOOTER */
 
 footer{
     background-color: #DEF9FF;
 }
-
-
 
 /* MEDIA QUERIES */
 
