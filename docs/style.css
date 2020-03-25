@@ -62,12 +62,9 @@ em{
 
 /* HEADER */
 
-header {
+#logo {
     width: 100%;
     height: auto;
-    display: flex;
-    background-image: url("../img/changemaker-head.png");
-    background-repeat: no-repeat;
 }
 
 header button{
