@@ -1,10 +1,3 @@
-/* GENERAl */
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /***  colors:  ***/
 .pallet {
     color: #2FA0FE;
@@ -13,25 +6,16 @@
 }
 /*****************/
 
-html {
-    box-sizing: border-box;
-    height:100%;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
+/* GENERAl */
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-size: 100%;
+    
     font-family: 'Noto Sans', sans-serif;
-    min-height:100%;
-    padding: 0;
-    margin: 0;
-}
-
-h1{
-    text-align: center;
-    font-family: 'Caveat', cursive;
 }
 
 h2{
@@ -40,43 +24,127 @@ h2{
     text-align: center;
 }
 
+em{
+    color: #2FA0FE;
+}
+
 .wrapper{
     width: 940px;
     margin: 0 auto;
-    background-color: blue;
 }
 
-img{
-    width: 100px;
-    height: 100px;
-    background-color: orange;
+.circle{
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    width:190px;
+    height:190px;
+
+    border: 3px #DEF9FF solid;
+}
+
+.opacity{
+    width: 100%;
+    opacity: 0.33;
+    height: 550px;
+    margin-top: 100px;
 }
 
 section{
     background-color: yellow;
 }
 
+#blue{
+    background-color: #DEF9FF;
+    margin-top: 100px;
+}
+
+#sponso{
+    background-color: #DEF9FF;
+    margin-top: 100px;
+}
 
 /* HEADER */
 
-#photo{
-    width: 100%;
-    height: 30%;
+header{
+    height: 580px;
+    background-image: url("../img/changemaker-head.png");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    
 }
 
-#aaaight{
-    position: absolute;
+header button{
+  width: 300px;
+  height:100px;
+  background: #2FA0FE;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 350px;
+  margin-top: 350px;
+  
+  border: 6px #DEF9FF solid;
 }
 
+/* CORPS DU SITE */
 
-/* SECTION ONE */
+article{
+    margin-top: 100px;
+}
 
-/* SECTION TWO */
+#butterfly{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 84px;
+}
 
-/* SECTION TREE */
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#one{
+    background-color: #DEF9FF;
+    margin-top: 300px;
+    width: 75%;
+    display: flex;
+}
+
+#two{
+    background-color: #DEF9FF;
+    display: flex;
+
+}
+
+#tree{
+    background-color: #DEF9FF;
+    width: 75%;
+    display: flex;
+}
+
+#four{
+    background-color: #DEF9FF;
+    display: flex;
+}
+
+#five{
+    background-color: #DEF9FF;
+    width: 75%;
+    display: flex;
+}
+
+#six{
+    background-color: #DEF9FF;
+}
+
 
 /* FOOTER */
 
 footer{
-    background-color: grey;
+    background-color: #DEF9FF;
 }
