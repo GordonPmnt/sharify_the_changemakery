@@ -138,16 +138,26 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8em;
+    margin-bottom: 10em;
 }
 
 button{
+    font-weight: bold;
     background-color: white;
-    border-style: 3px #4CAF50 solid;
-    color: #4CAF50;
+    border: 2px solid #4CAF50; /* Green */
+    
+    color: rgba(27, 101, 83, 0.8);
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     font-size: 16px;
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 /* MEDIA QUERIES */
