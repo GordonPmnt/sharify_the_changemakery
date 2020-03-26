@@ -30,7 +30,8 @@ h1 {
     padding-top: 3%;
     margin-left: 5%;
     font-family: Roboto Condensed, sans-serif;
-    color: rgba(27, 101, 83, 0.8);
+    color: black;
+    opacity: 0.6;
 }
 
 h1 span {
@@ -48,7 +49,7 @@ h2 {
 
 nav {
     margin-top: -5%;
-    margin-left : 5%;
+    margin-left : 6%;
 }
 
 img {
@@ -139,9 +140,30 @@ article {
     margin-top: -4px;
 }
 
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 10em;
+}
+
 button{
-    display: block;
-    margin : auto;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid rgba(27, 101, 83, 0.8); /* Green */
+    
+    color: rgba(27, 101, 83, 0.8);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgba(27, 101, 83, 0.8); /* Green */
+    color: white;
 }
 
 /* MEDIA QUERIES */
@@ -377,4 +399,11 @@ button{
     -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
             transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
+}
+
+
+@media screen and (max-width: 1280px){
+        .stakeholders{
+                color: red;
+        }
 }
