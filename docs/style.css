@@ -145,7 +145,7 @@ article {
 button{
     font-weight: bold;
     background-color: white;
-    border: 2px solid #4CAF50; /* Green */
+    border: 2px solid rgba(27, 101, 83, 0.8); /* Green */
     
     color: rgba(27, 101, 83, 0.8);
     padding: 15px 32px;
@@ -156,7 +156,7 @@ button{
 }
 
 button:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: rgba(27, 101, 83, 0.8); /* Green */
     color: white;
 }
 
