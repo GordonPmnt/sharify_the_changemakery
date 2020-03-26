@@ -10,6 +10,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+::-moz-selection {
+        background-color:#E1DD72;
+        opacity: 0.8;
+        }
+
 
 body {
     font-size: 100%;
