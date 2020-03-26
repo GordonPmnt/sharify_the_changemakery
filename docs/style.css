@@ -43,7 +43,7 @@ h2 {
 
 nav {
     margin-top: -5%;
-    margin-left : 5%;
+    margin-left : 6%;
 }
 
 img {
@@ -393,4 +393,11 @@ button:hover {
     -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
             transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
+}
+
+
+@media screen and (max-width: 1280px){
+        .stakeholders{
+                color: red;
+        }
 }
