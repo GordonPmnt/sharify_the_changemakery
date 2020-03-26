@@ -15,7 +15,6 @@ html {
     opacity: 0.8;
 }
 
-
 body {
     font-size: 100%;
     min-height:100%;
@@ -26,6 +25,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 6%;
+    margin-bottom: 10%;
 }
 
 a {
@@ -35,13 +35,10 @@ a {
     color: #A8C66C;
 }
 
-h1 {
-    font-size: 4rem;
-    padding-top: 3%;
-    margin-left: 5%;
-    font-family: Roboto Condensed, sans-serif;
-    color: black;
-    opacity: 0.6;
+
+#monde-demain {
+    background-image: url("./img/change-makery.png");
+    background-size: cover;
 }
 
 h1 span {
@@ -74,7 +71,7 @@ h3 {
 
 h4 {
     font-family: Roboto Condensed, sans-serif;
-    color: #A8C66C;
+    color: rgba(27, 101, 83, 0.8);
     font-size: 1.8rem;
     text-align: center;
 }
@@ -135,7 +132,10 @@ article {
 
 .stakeholders {
     display: flex;
-    margin: 5% 15% 5% 15%;
+    margin: 5% 15% 3% 15%;
+    background: linear-gradient(0deg, rgba(250, 250, 250, 0.9), rgba(168, 198, 108, 0.06));
+    border-radius: 30px;
+    padding-bottom: 1%;
 }
 
 #greta {
@@ -150,6 +150,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2%;
 }
 
 button{
@@ -403,11 +404,4 @@ button:hover {
     -webkit-transform: translateY(0vh) translateX(110vw) scale(0.45);
             transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
-}
-
-
-@media screen and (max-width: 1280px){
-        .stakeholders{
-                color: red;
-        }
 }
