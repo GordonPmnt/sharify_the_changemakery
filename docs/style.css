@@ -35,6 +35,9 @@ a {
     color: #A8C66C;
 }
 
+.birds {
+    opacity: 50%;
+}
 
 #monde-demain {
     background-image: url("./img/change-makery.png");
