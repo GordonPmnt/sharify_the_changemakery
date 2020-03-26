@@ -67,11 +67,11 @@ h3 {
     font-family: Roboto Condensed, sans-serif;
     color: rgba(27, 101, 83, 0.8);
     background: rgba(225, 221, 114, 0.5);
-    font-size: 3em;
-    margin-top: 12%;
-    margin-bottom: 12%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    font-size: 1.9em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .h-right {
@@ -89,8 +89,8 @@ h3 {
 
 p {
     font-family: Roboto, sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
+    text-align: justify;
+    font-size: 1.1rem;
     margin: 10% 15% 0 15%;
 }
 
@@ -113,23 +113,19 @@ em {
 
 .text-block {
     flex-direction: column;
-    height: 40%;
+    height: 50%;
     width: auto;
     
 }
 
 article {
     display: flex;
-    margin: 5% 25% 5% 25%;
+    margin: 5% 20% 5% 20%;
 }
 
 .stakeholders {
     display: flex;
     margin: 5% 15% 5% 15%;
-}
-
-#domino {
-    padding-right: 40%;
 }
 
 #greta {
