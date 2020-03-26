@@ -135,6 +135,11 @@ article {
     margin-top: -4px;
 }
 
+button{
+    display: block;
+    margin : auto;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 700px)
