@@ -11,9 +11,9 @@ html {
     box-sizing: inherit;
 }
 ::-moz-selection {
-        background-color:#E1DD72;
-        opacity: 0.8;
-        }
+    background-color:#E1DD72;
+    opacity: 0.8;
+}
 
 
 body {
@@ -23,6 +23,16 @@ body {
 
 nav {
     font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+}
+
+a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 1%;
+    color: #A8C66C;
 }
 
 h1 {
@@ -47,20 +57,8 @@ h2 {
     opacity: 0.8;
 }
 
-nav {
-    margin-top: -5%;
-    margin-left : 6%;
-}
-
 img {
     width: 100%;
-}
-
-a {
-    display: flex;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #A8C66C;
 }
 
 h3 {
@@ -72,6 +70,13 @@ h3 {
     margin-bottom: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+h4 {
+    font-family: Roboto Condensed, sans-serif;
+    color: #A8C66C;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .h-right {
@@ -106,8 +111,13 @@ em {
     justify-content: center;
 }
 
-.icon img {
+.other-icons {
     height: 55px;
+    width: auto;
+}
+
+.stakeholders-icons {
+    height: 110px;
     width: auto;
 }
 
@@ -140,8 +150,6 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8em;
-    margin-bottom: 10em;
 }
 
 button{
