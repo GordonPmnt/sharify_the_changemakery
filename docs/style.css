@@ -40,7 +40,7 @@ a {
 }
 
 #monde-demain {
-    background-image: url("./img/change-makery.png");
+    background-image: url("./img/Component\ 3.png"); 
     background-size: cover;
 }
 
@@ -77,6 +77,10 @@ h4 {
     color: rgba(27, 101, 83, 0.8);
     font-size: 1.8rem;
     text-align: center;
+    background: linear-gradient(0deg, rgba(250, 250, 250, 0.9), rgba(215, 223, 200, 0.6));
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
 }
 
 .h-right {
@@ -94,9 +98,11 @@ h4 {
 
 p {
     font-family: Roboto, sans-serif;
-    text-align: justify;
+    text-align: start;
     font-size: 1.1rem;
     margin: 10% 15% 0 15%;
+    width: 230px;
+    height: auto;
 }
 
 em {
@@ -119,25 +125,25 @@ em {
 .stakeholders-icons {
     height: 110px;
     width: auto;
+    margin-bottom: 5%;
+    margin-top: 12%;
 }
 
 .text-block {
     flex-direction: column;
     height: 50%;
-    width: auto;
-    
+    width: auto;  
 }
 
 article {
     display: flex;
+    justify-content: space-evenly;
     margin: 5% 20% 5% 20%;
 }
 
 .stakeholders {
     display: flex;
     margin: 5% 15% 3% 15%;
-    background: linear-gradient(0deg, rgba(250, 250, 250, 0.9), rgba(168, 198, 108, 0.06));
-    border-radius: 30px;
     padding-bottom: 1%;
 }
 
