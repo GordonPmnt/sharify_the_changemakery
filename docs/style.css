@@ -218,6 +218,7 @@ button:hover {
         background-color: red;
         display: flex;
         flex-direction: column;
+    }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
