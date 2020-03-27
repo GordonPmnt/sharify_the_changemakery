@@ -196,11 +196,28 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 640px)
 {
-    html {
+    .stakeholders {
         background-color: yellowgreen;
+        display: flex;
+        flex-direction: column;
     }
+    .text-block{
+            margin-top: 3em;
+    }
+    h4{
+            text-align: center;
+    }
+    #how article{
+            background-color: red;
+            display: flex;
+        flex-direction: column;
+    }
+    #who article{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
