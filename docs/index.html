@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
     <title>Change Makery</title>
   </head>
 
@@ -46,19 +47,19 @@
           <div class="icon">
             <img class="stakeholders-icons" src="./img/entr-color.svg" alt="icon of collaborator">
           </div>
-          <h4>Entrepreneurs sociaux, acteurs de la RSE</h4>
+          <h4 onclick="goto('#sign-up-form')">Entrepreneurs sociaux, acteurs de la RSE</h4>
         </div>
         <div class="text-block" data-aos="fade-up">
           <div class="icon">
             <img class="stakeholders-icons" src="./img/teach-color.svg" alt="icon of teacher">
           </div>
-          <h4>Acteurs de l'éduction</h4>
+          <h4 onclick="goto('#sign-up-form')">Acteurs de l'éduction</h4>
         </div>
         <div class="text-block" data-aos="fade-up">
           <div class="icon">
             <img class="stakeholders-icons" src="./img/money-color.svg" alt="icon of investor">
           </div>
-          <h4>Investisseurs responsables</h4>
+          <h4 onclick="goto('#sign-up-form')">Investisseurs responsables</h4>
         </div>
       </article>
       <div id="center">
@@ -154,12 +155,20 @@
           </p>
         </div>
       </article>
-      <div id="center">
-        <button>NOUS AVONS BESOIN DE VOUS</button>
-      </div>  
-  </section>
-  
-    <img src="./img/Rectangle14.png" alt="rectangle">
+    </section>
+    <img id="sign-up-form" class="rectangle" src="./img/Rectangle14.png" alt="rectangle">
+      <section class="sign-up">
+        <form >
+          <input type="text" placeholder="Société">
+          <input type="email" placeholder="@">
+          <input type="text" placeholder="Tel.">
+          <input type="text" placeholder="Nom & Prénom">            
+          <textarea placeholder="Mon message"></textarea>
+          <p onclick="goto('#monde-demain')">-</p>
+        </form>
+        <button onclick="goto('#together')">JE REJOINS L'ECOSYSTEME</button>
+      </section>
+    <img class="rectangle" src="./img/Rectangle14.png" alt="rectangle">
     <img id="together" src="./img/gotogether.png" alt="together">
   </body>
 </html>
